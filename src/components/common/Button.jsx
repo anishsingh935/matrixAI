@@ -1,13 +1,13 @@
 import React from "react";
 
-const Button = ({label,onClick}) => {
+const Button = ({ label, onClick }) => {
   return (
     <button
-      onClick={onClick}
+      onClick={onClick&&onClick}
       style={{
         padding: "10px 16px",
         borderRadius: "8px",
-        background:" #18077F",
+        background: " #18077F",
         color: "white",
         border: "none",
         cursor: "pointer",

@@ -20,6 +20,8 @@ import Facebook from "./fb.svg";
 import Read from "./read.svg";
 import Timer from "./timere.svg";
 import Message from "./message.svg";
+import Clock from "./clock.svg";
+
 export {
   Logo,
   Setting,
@@ -43,4 +45,5 @@ export {
   Read,
   Timer,
   Message,
+  Clock
 };
