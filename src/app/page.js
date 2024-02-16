@@ -4,9 +4,9 @@ import Cards from "@/components/Cards";
 export default function Home() {
   return (
     <div className="flex items-center justify-start">
-      {/* <FormLeft></FormLeft> */}
+      <FormLeft></FormLeft>
       {/* <FormRight></FormRight> */}
-      <Cards></Cards>
+      {/* <Cards></Cards> */}
     </div>
   );
 }
