@@ -5,6 +5,7 @@ import Table from "@/components/Table";
 import global from '@/global.module.css';
 import { useState } from "react";
 import Condition from "@/components/conditions/Condition";
+import Enrich from "@/components/enrich/Enrich";
 
 export default function Home() {
   const [breadActiveCount, setBreadActiveCount] = useState(1)
@@ -41,8 +42,17 @@ export default function Home() {
               <Button title={"Save"} click={() => { next() }} width={'100%'} />
             </div>
           </div>
-
         }
+
+        {breadActiveCount === 3 &&
+          <div>
+            <Enrich/>
+            <div>
+              <Button title={"Save"} click={() => { next() }} width={'100%'} />
+            </div>
+          </div>
+        }
+        
       </div>
     </main>
   );
