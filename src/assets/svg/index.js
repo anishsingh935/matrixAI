@@ -8,6 +8,12 @@ import Intranet from './intranet.svg';
 import Upload from './upload.svg';
 import ArrowDown from './arrow-down.svg';
 import WhiteCheck from './white-check.svg';
+import Facebook from './facebook.svg';
+import Youtube from './youtube.svg';
+import Twitter from './twitter.svg';
+import Talk from './talk.svg';
+import ReadAi from './read-ai.svg';
+import Insta from './insta.svg'
 
 export {
     Logo,
@@ -20,4 +26,10 @@ export {
     Turnitin,
     Intranet,
     Upload,
+    Facebook,
+    Youtube,
+    Insta,
+    Twitter,
+    Talk,
+    ReadAi
 }

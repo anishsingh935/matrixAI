@@ -48,7 +48,7 @@ export default function Home() {
           <div>
             <Enrich/>
             <div>
-              <Button title={"Save"} click={() => { next() }} width={'100%'} />
+              <Button title={"Save"} click={() => { }} width={'100%'} />
             </div>
           </div>
         }
