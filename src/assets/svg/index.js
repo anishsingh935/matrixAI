@@ -14,7 +14,14 @@ import Twitter from './twitter.svg';
 import Talk from './talk.svg';
 import ReadAi from './read-ai.svg';
 import Insta from './insta.svg'
-
+import User from "./user.svg";
+import More from "./more.svg";
+import Zip from "./zip.svg";
+import Facebook from "./fb.svg";
+import Insta from "./int.svg";
+import Twitter from "./twt.svg";
+import Intranet from "./intranet.svg";
+import Read from "./read.svg";
 export {
     Logo,
     Setting,
@@ -31,5 +38,13 @@ export {
     Insta,
     Twitter,
     Talk,
-    ReadAi
+    ReadAi,
+    User,
+    More,
+    Zip,
+    Facebook,
+    Insta,
+    Twitter,
+    Intranet,
+    Read,
 }
