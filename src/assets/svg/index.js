@@ -5,6 +5,7 @@ import Avtar from './avtar.svg';
 import Moodle from './moodle.svg';
 import Turnitin from './turnitin.svg';
 import Intranet from './intranet.svg';
+import Upload from './upload.svg';
 import ArrowDown from './arrow-down.svg';
 import WhiteCheck from './white-check.svg';
 
@@ -17,5 +18,6 @@ export {
     WhiteCheck,
     Moodle,
     Turnitin,
-    Intranet
+    Intranet,
+    Upload,
 }
