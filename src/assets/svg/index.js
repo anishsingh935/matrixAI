@@ -8,7 +8,6 @@ import Intranet from './intranet.svg';
 import Upload from './upload.svg';
 import ArrowDown from './arrow-down.svg';
 import WhiteCheck from './white-check.svg';
-import Facebook from './facebook.svg';
 import Youtube from './youtube.svg';
 import Twitter from './twitter.svg';
 import Talk from './talk.svg';
@@ -18,9 +17,6 @@ import User from "./user.svg";
 import More from "./more.svg";
 import Zip from "./zip.svg";
 import Facebook from "./fb.svg";
-import Insta from "./int.svg";
-import Twitter from "./twt.svg";
-import Intranet from "./intranet.svg";
 import Read from "./read.svg";
 export {
     Logo,
@@ -42,9 +38,5 @@ export {
     User,
     More,
     Zip,
-    Facebook,
-    Insta,
-    Twitter,
-    Intranet,
     Read,
 }

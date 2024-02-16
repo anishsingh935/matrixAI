@@ -1,23 +1,19 @@
 // background: #18077F;
 "use client";
 import React, { useState } from "react";
-import styles from "./nav.module.css";
-import global from "@/global.module.css";
 import Image from "next/image";
 import { ArrowDown, Avtar, Info, Logo, Setting } from "@/assets/svg/index";
 import Input from "./common/Input";
 import Textarea from "./common/TextArea";
 import Button from "./common/Button";
-const FormLeft = () => {
-  const [pageNumber, setPageNumber] = useState(0);
+const FormLeft = ({ breadActiveCount }) => {
   return (
     <div
       style={{
         background: "#FFFFFF",
-        marginTop: "1rem",
-        width: "30%",
+        width: "40%",
         padding: "2rem",
-        borderRadius: "3rem",
+        borderRadius: "20px",
         display: "flex",
         flexDirection: "column",
         gap: "1rem",
@@ -49,7 +45,7 @@ const FormLeft = () => {
           </p>
         </span>
       </span>
-      {pageNumber == 0 ? (
+      {breadActiveCount == 1 ? (
         <>
           <Input
             id={1}
@@ -74,8 +70,15 @@ const FormLeft = () => {
             of their questioning, all of which you can do from here.
           </p>
         </>
-      ) : pageNumber == 1 ? (
-        <>
+      ) : breadActiveCount == 2 ? (
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+            height: "100%",
+          }}
+        >
           <p
             style={{
               fontSize: "16px",
@@ -92,9 +95,16 @@ const FormLeft = () => {
           >
             Last Updated: 14/ 01/ 24
           </p>
-        </>
+        </div>
       ) : (
-        <>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+            height: "100%",
+          }}
+        >
           <p
             style={{
               fontSize: "16px",
@@ -111,7 +121,7 @@ const FormLeft = () => {
           >
             Last Updated: 14/ 01/ 24
           </p>
-        </>
+        </div>
       )}
     </div>
   );

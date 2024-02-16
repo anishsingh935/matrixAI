@@ -4,9 +4,7 @@ import styles from "./nav.module.css";
 import global from "@/global.module.css";
 import Image from "next/image";
 import { ArrowDown, Avtar, Info, Logo, Setting } from "@/assets/svg/index";
-
-const Nav = () => {
-  const [selected, setSelect] = useState(0);
+const Nav = ({ selected, setSelect }) => {
   return (
     <div className={`${styles.container}`}>
       <div className={`${styles.logo}`}>

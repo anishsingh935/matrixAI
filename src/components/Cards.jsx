@@ -9,29 +9,29 @@ const Cards = () => {
   return (
     <div
       style={{
-        width: "100%",
-        marginTop: "1rem",
         background: "#FFFFFF",
-        padding: "3rem",
+        padding: "1rem",
+        margin: "1rem",
+        marginInline: "2rem",
         borderRadius: "3rem",
         display: "grid",
         gridTemplateColumns: "1fr 1fr 1fr 1fr",
-        columnGap: "2rem",
-        rowGap: "2rem",
+        columnGap: "1rem",
+        rowGap: "1rem",
       }}
     >
       {data.map((item) => {
         return (
-          <>
+          <div>
             <span
               style={{
                 background: "#FAFAFA",
-                padding: "16px",
+                padding: "10px",
                 borderRadius: "20px",
                 width: "100%",
                 display: "flex",
                 flexDirection: "column",
-                gap:"0.8rem"
+                gap: "0.8rem",
               }}
             >
               <span
@@ -80,7 +80,7 @@ const Cards = () => {
                 <Image src={Read}></Image>
               </span>
             </span>
-          </>
+          </div>
         );
       })}
     </div>
